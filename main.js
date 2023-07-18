@@ -14,10 +14,10 @@ color = prompt("inserisci il tuo colore preferito");
 // valore alla variabili js
 
 const MessageToDisplay = `
-<h1> nome ${firstName} </h1>
-<h1> cognome ${surname} </h1>
-<h1> colore preferito ${color} </h1>
-<h1> numero ${index} </h1>
+<h1> nome <span>${firstName}</span> </h1>
+<h1> cognome <span>${surname}</span> </h1>
+<h1> colore preferito <span>${color}</span> </h1>
+<h1> numero <span>${index}</span> </h1>
 `;
 
 // collegamento per trascrivere il risultato sul div
